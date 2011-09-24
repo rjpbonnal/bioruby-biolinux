@@ -14,13 +14,15 @@ require 'rake'
 require 'jeweler'
 Jeweler::Tasks.new do |gem|
   # gem is a Gem::Specification... see http://docs.rubygems.org/read/chapter/20 for more options
-  gem.name = "bio-linux"
-  gem.homepage = "http://github.com/helios/bioruby-linux"
+  gem.name = "bio-biolinux"
+  gem.homepage = "http://github.com/helios/bioruby-biolinux"
   gem.license = "MIT"
   gem.summary = %Q{TODO: one-line summary of your gem}
   gem.description = %Q{TODO: longer description of your gem}
   gem.email = "ilpuccio.febo@gmail.com"
   gem.authors = ["Raoul J.P. Bonnal"]
+  gem.add_runtime_dependency 'bio-core',["= 0.0.1"]
+  gem.add_runtime_dependency 'bio-core-ext',["= 0.0.1"]
   # dependencies defined in Gemfile
 end
 Jeweler::RubygemsDotOrgTasks.new
@@ -47,7 +49,7 @@ Rake::RDocTask.new do |rdoc|
   version = File.exist?('VERSION') ? File.read('VERSION') : ""
 
   rdoc.rdoc_dir = 'rdoc'
-  rdoc.title = "bio-linux #{version}"
+  rdoc.title = "bio-biolinux #{version}"
   rdoc.rdoc_files.include('README*')
   rdoc.rdoc_files.include('lib/**/*.rb')
 end
