@@ -19,10 +19,12 @@ Gem::Specification.new do |s|
   s.files = [
     ".document",
     "Gemfile",
+    "Gemfile.lock",
     "LICENSE.txt",
     "README.rdoc",
     "Rakefile",
-    "VERSION"
+    "VERSION",
+    "bio-biolinux.gemspec"
   ]
   s.homepage = %q{http://github.com/helios/bioruby-biolinux}
   s.licenses = [%q{MIT}]
