@@ -17,8 +17,8 @@ Jeweler::Tasks.new do |gem|
   gem.name = "bio-biolinux"
   gem.homepage = "http://github.com/helios/bioruby-biolinux"
   gem.license = "MIT"
-  gem.summary = %Q{TODO: one-line summary of your gem}
-  gem.description = %Q{TODO: longer description of your gem}
+  gem.summary = %Q{Meta package for BioLinux distribution}
+  gem.description = %Q{Meta package for BioLinux distribution: bio-core, bio-core-ext}
   gem.email = "ilpuccio.febo@gmail.com"
   gem.authors = ["Raoul J.P. Bonnal"]
   gem.add_runtime_dependency 'bio-core',["= 0.0.1"]
